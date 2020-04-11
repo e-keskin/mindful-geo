@@ -1,0 +1,22 @@
+body{
+	margin: 0; 
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+/*header styles */
+
+header{
+	font-family: 'Sawarabi Mincho', sans-serif;
+	text-align: left;
+	padding-bottom: 50px;
+	padding-right: 0;
+	max-width: 1300px;
+
+}
+
+header img{
+	width: 1300px;
+	height: 300px;
+}
