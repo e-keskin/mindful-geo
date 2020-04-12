@@ -1,5 +1,5 @@
 body{
-	margin: 0; 
+	max-width: 1370px;
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size: 20px;
 	line-height: 30px;
@@ -8,7 +8,6 @@ body{
 /*header styles */
 
 header{
-	font-family: 'Sawarabi Mincho', sans-serif;
 	text-align: left;
 	padding-bottom: 50px;
 	padding-right: 0;
@@ -17,6 +16,53 @@ header{
 }
 
 header img{
-	width: 1300px;
+	width: 1370px;
 	height: 300px;
+	max-width: 100%;
+}
+
+#layout {
+    padding: 0;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+  font-family: 'Prata', serif;
+  font-size: 50px;
+  color: white;
+}
+
+.sidebar {
+    background: rgb(61, 79, 93);
+    color: #fff;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* macht items nebeneinander statt untereinander*/
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.nav-item a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    color: #fff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 85%;
 }
